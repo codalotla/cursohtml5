@@ -1,0 +1,78 @@
+3+4
+"Hola".length
+"Batman".substring(0,3)
+
+confirm("Te es util este video?")
+alert("Claro que si")
+nombre = promt("Ingresa tu nombre")
+
+if(nombre=="Julio")
+{ alert("Bienvenido");}
+else { alert("fuera de aqui!");}
+
+for(var i=0;i<6;i++){
+  console.log(i);
+}
+
+var mix = [42, true, "towel"];
+var names = ["Mao","Gandhi","Mandela"];
+names[0];
+
+for (var i = 0; i < names .length; i++) {
+    
+console.log("Me gustaria conocer a " + names[i]);
+}
+
+
+function multiplytwo(number){
+	alert(number*2)
+}
+multiplytwo(8);
+
+
+var multiplytwo = function(number){
+	alert(number*2)
+}
+multiplytwo(8);
+
+
+function multiplytwo(number){
+	return number*2;
+}
+numberpordos = multiplytwo(8);
+
+
+
+var myObject = {
+    key: value,
+    key: value,
+    key: value
+};
+
+var phonebookEntry = {};
+phonebookEntry.name = 'Oxnard Montalvo';
+
+phonebookEntry.number = '(555) 555-5555';
+
+phonebookEntry.phone = function() {
+  
+console.log('Calling ' + this.name + ' at ' + this.number + '...');
+};
+
+
+phonebookEntry.phone();
+
+
+document
+window
+navigator
+navigator.platform
+document.all
+document.links
+document.forms
+document.write("<h1>Hola</h1>")
+document.querySelector("h1")
+document.querySelector("h1").style.background="red"
+document.getElementById("nameid").innerHTML = "Probando"
+
+

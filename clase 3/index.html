@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form autocomplete="on" action="" oninput="resultado.value=parseInt(cantidad1.value)+parseInt(cantidad2.value)">
+		Selecciona tu color favorito <input type="color"><br/>
+		Ingresa tu fecha de cumpleaños <input type="time"><br/>
+		Ingresar nombre <input type="text" required autofocus>
+		Ingresar email <input type="email" autocomplete="off" placeholder="Ingresar email"><br/>
+		Ingresar Cupon<input type="text" pattern="[A-Za-z]{5}"><br/>
+		Cantidad <input name="cantidad1" type="number" step="10"><br/>
+		Cantidad <input name="cantidad2" type="number"><br/>
+		ingresar edad <input type="range" min="18" max="60"><br/>
+		Ingresar url <input type="url"><br/>
+		Ingresar archivos x<input type="file" multiple><br/>
+		Ingresa tu lenguaje favorito <input list="lenguajes">
+		<datalist id="lenguajes">
+			<option value="Python"></option>
+			<option value="Ruby"></option>
+			<option value="PHP"></option>
+		</datalist>
+		<output name="resultado"></output>
+
+		<input type="submit">
+	</form>
+</body>
+</html>

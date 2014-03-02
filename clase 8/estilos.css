@@ -1,0 +1,21 @@
+#capa{
+	width: 200px;
+	height: 200px;
+	background: blue;
+}
+
+#moveritems li{
+	background: red;
+	height: 50px;
+	width: 150px;
+	margin:20px;
+}
+
+#acordeon{
+	width: 50%;
+}
+
+#menu{
+	width: 150px;
+	background: blue;
+}

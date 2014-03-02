@@ -1,0 +1,7 @@
+{
+	"contactos": [
+		{"nombre" : "Julio", "email": "sfsa@fsafs.com"},
+		{"nombre" : "Martin", "email": "martin@safsa.com"},
+		{"nombre" : "Mauricio", "email": "mauricio@safsa.com"}
+	]
+}
